@@ -1632,38 +1632,22 @@
         Nn = e,
         c.querySelector("#load").style.display = e ? "block" : "none"
     }
+
     function Qn(e, t, n, a) {
-        var o, r;
-        e = e,
-        //t = t,
-        o = function(e, t) {
-            switch (e) {
-            case 200:
-                return void n({
-                    success: !0,
-                    data: t
-                });
-            case 503:
-            case 0:
-                a && qe(ye, E("Servers are currently undergoing maintenance!") + "\n\r" + E("Please try again later!") + "\n\rStatus: " + e);
-                break;
-            default:
-                a && qe(ye, E("An unknown error occurred ('$')", e) + "\n\r" + E("Please try again later!"))
-            }
-            n({
-                success: !1,
-                error: e
-            })
-        }
-        ,
-        (r = new XMLHttpRequest).onreadystatechange = function() {
-            4 == this.readyState && o(this.status, this.response)
-        }
-        ,
-        r.open("GET", e, !0),
-        //r.setRequestHeader("Content-type", "application/x-www-form-urlencoded"),
-        r.send(t)
-    }
+    // Hardcoded response data
+    const hardcodedData = JSON.stringify({
+        url: "http://localhost:6000/6000/"
+    });
+
+    // Immediately call success callback with hardcoded data (status 200)
+    n({
+        success: true,
+        data: hardcodedData
+    });
+
+    // No XMLHttpRequest call needed, so skip everything else
+}
+
     Zn;
     var ea = null;
     adplayer = null;
