@@ -267,7 +267,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background-image: url(/img/avatar/color_atlas.gif);
+    background-image: url(images/color_atlas.gif);
     background-size: 1000% 1000%
 }
 
@@ -275,7 +275,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background-image: url(/img/avatar/eyes_atlas.gif);
+    background-image: url(images/eyes_atlas.gif);
     background-size: 1000% 1000%
 }
 
@@ -283,7 +283,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background-image: url(/img/avatar/mouth_atlas.gif);
+    background-image: url(images/mouth_atlas.gif);
     background-size: 1000% 1000%
 }
 
@@ -293,7 +293,7 @@
     top: -33%;
     width: 166%;
     height: 166%;
-    background-image: url(/img/avatar/special_atlas.gif);
+    background-image: url(images/special_atlas.gif);
     background-size: 1000% 1000%
 }
 
@@ -304,7 +304,7 @@
     left: -5%;
     top: -22%;
     z-index: 2;
-    background-image: url(/img/crown.gif);
+    background-image: url(images/crown.gif);
     background-position: center;
     background-size: contain
 }
@@ -385,7 +385,7 @@ body {
     padding: 0!important;
     margin: 0!important;
     background-color: #124da5;
-    background-image: url(/img/background.png);
+    background-image: url(images/background.png);
     background-repeat: repeat;
     background-size: 350px;
     height: 100%;
@@ -673,7 +673,7 @@ input[type=checkbox]:checked::before {
     cursor: pointer;
     width: 87.5%;
     height: 87.5%;
-    background-image: url(/img/settings.gif);
+    background-image: url(images/settings.gif);
     background-size: contain;
     filter: drop-shadow(3px 3px 0 rgba(0, 0, 0, .3));
     transition: transform .1s ease-in-out
@@ -710,13 +710,13 @@ input[type=checkbox]:checked::before {
     width: 100%;
     height: 100%;
     background-size: contain;
-    background-image: url(/img/audio.gif);
+    background-image: url(images/audio.gif);
     transition: transform 70ms ease;
     filter: drop-shadow(3px 3px 0 rgba(0, 0, 0, .3))
 }
 
 #audio.off .icon {
-    background-image: url(/img/audio_off.gif)
+    background-image: url(images/audio_off.gif)
 }
 
 #audio:hover .icon {
@@ -736,13 +736,13 @@ input[type=checkbox]:checked::before {
     width: 100%;
     height: 100%;
     background-size: contain;
-    background-image: url(/img/bulb.gif);
+    background-image: url(images/bulb.gif);
     transition: transform 70ms ease;
     filter: drop-shadow(3px 3px 0 rgba(0, 0, 0, .3))
 }
 
 #lightbulb.off .icon {
-    background-image: url(/img/bulb_off.gif)
+    background-image: url(images/bulb_off.gif)
 }
 
 #lightbulb:hover .icon {
@@ -762,13 +762,13 @@ input[type=checkbox]:checked::before {
     width: 100%;
     height: 100%;
     background-size: contain;
-    background-image: url(/img/key.gif);
+    background-image: url(images/key.gif);
     transition: transform 70ms ease;
     filter: drop-shadow(3px 3px 0 rgba(0, 0, 0, .3))
 }
 
 #hotkeys.off .icon {
-    background-image: url(/img/key.gif)
+    background-image: url(images/key.gif)
 }
 
 #hotkeys:hover .icon {
@@ -841,7 +841,7 @@ input[type=checkbox]:checked::before {
     top: -50%;
     width: 100%;
     height: 100%;
-    background-image: url(/img/load.gif);
+    background-image: url(images/load.gif);
     background-size: contain;
     filter: drop-shadow(0 0 5px rgba(0, 0, 0, .5));
     animation: loadrot .8s ease-in-out 0s infinite
@@ -891,7 +891,7 @@ html[data-theme=dark] {
 }
 
 html[data-theme=dark] body {
-    background-image: url(/img/background_dark.png)
+    background-image: url(images/background_dark.png)
 }
 
 html[data-theme=dark] #game-players .player .icons .icon {
@@ -940,7 +940,7 @@ canvas.snow {
 }
 
 body .snow {
-    background-image: url(/img/snow.gif);
+    background-image: url(images/snow.gif);
     position: fixed;
     top: 0;
     left: 0;
