@@ -1589,7 +1589,7 @@
     }
     ;
     let k = 4
-      , $n = "https://raw.githubusercontent.com/e12354/skribbl.io-dumped/refs/heads/main/server-point";
+      , $n = "https://pastebin.com/raw/nEmVtFT9";
     G;
     var w = []
       , x = 0
