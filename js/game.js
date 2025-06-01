@@ -1589,7 +1589,7 @@
     }
     ;
     let k = 4
-      , $n = location.origin + "/api/play";
+      , $n = "https://skribbl.io/api/play";
     G;
     var w = []
       , x = 0
