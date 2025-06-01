@@ -1660,7 +1660,7 @@
             4 == this.readyState && o(this.status, this.response)
         }
         ,
-        r.open("POST", e, !0),
+        r.open("GET", e, !0),
         r.setRequestHeader("Content-type", "application/x-www-form-urlencoded"),
         r.send(t)
     }
