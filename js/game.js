@@ -732,7 +732,7 @@
         r.appendChild($("key")),
         t), l = (i.id = e,
         (i.element = r).toolIndex = e,
-        r.querySelector(".icon").style.backgroundImage = "url(/img/" + t.graphic + ")",
+        r.querySelector(".icon").style.backgroundImage = "url(/images/" + t.graphic + ")",
         o = t.name,
         a = "S",
         (n = r).dataset.tooltip = o,
@@ -779,7 +779,7 @@
         name: "Fill",
         keydef: "F",
         graphic: "fill.gif",
-        cursor: "url(/img/fill_cur.png) 7 38, default"
+        cursor: "url(/images/fill_cur.png) 7 38, default"
     }),
     [])
       , C = (it(0, {
@@ -2123,7 +2123,7 @@
         case Sa:
             (a = W(n.id)) && (o = a,
             r = 0 == n.vote ? "thumbsdown.gif" : "thumbsup.gif",
-            (i = $("icon")).style.backgroundImage = "url(/img/" + r + ")",
+            (i = $("icon")).style.backgroundImage = "url(/images/" + r + ")",
             r = Ua(o, i).getBoundingClientRect(),
             o = .9 * (r.bottom - r.top),
             i.style.width = o + "px",
