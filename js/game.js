@@ -1635,7 +1635,7 @@
     function Qn(e, t, n, a) {
         var o, r;
         e = e,
-        t = t,
+        //t = t,
         o = function(e, t) {
             switch (e) {
             case 200:
@@ -1661,7 +1661,7 @@
         }
         ,
         r.open("GET", e, !0),
-        r.setRequestHeader("Content-type", "application/x-www-form-urlencoded"),
+        //r.setRequestHeader("Content-type", "application/x-www-form-urlencoded"),
         r.send(t)
     }
     Zn;
