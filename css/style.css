@@ -68,7 +68,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background: url(/img/stars.png);
+    background: url(../images/stars.png);
     background-repeat: repeat
 }
 
@@ -76,7 +76,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background: url(/img/wave.gif);
+    background: url(../images/wave.gif);
     background-size: contain;
     background-repeat: repeat-x;
     opacity: .5
@@ -122,7 +122,7 @@
     position: absolute;
     width: calc(var(--UNIT)/ 3);
     height: calc(var(--UNIT)/ 3);
-    background: url(/img/bubble.gif);
+    background: url(../images/bubble.gif);
     background-size: contain;
     opacity: .5
 }
@@ -1016,7 +1016,7 @@ body .snow {
     position: absolute;
     display: flex;
     align-items: center;
-    background-image: url(/img/info.gif);
+    background-image: url(../images/info.gif);
     right: 8px;
     top: 8px;
     width: 32px;
@@ -1235,11 +1235,11 @@ body .snow {
 }
 
 #game-players .player .player-icons .icon.owner {
-    background-image: url(/img/owner.gif)
+    background-image: url(../images/owner.gif)
 }
 
 #game-players .player .player-icons .icon.muted {
-    background-image: url(/img/mute.gif)
+    background-image: url(../images/mute.gif)
 }
 
 #game-players .player .player-icons .icon.visible {
@@ -1267,7 +1267,7 @@ body .snow {
     right: 30px;
     top: 3px;
     z-index: 2;
-    background-image: url(/img/pen.gif);
+    background-image: url(../images/pen.gif);
     background-size: contain;
     animation: icon_drawing 1s ease infinite;
     -webkit-animation: icon_drawing 1s ease infinite
@@ -1677,11 +1677,11 @@ form.chat-form input {
 }
 
 #game-rate .like {
-    background-image: url(/img/thumbsup.gif)
+    background-image: url(../images/thumbsup.gif)
 }
 
 #game-rate .dislike {
-    background-image: url(/img/thumbsdown.gif);
+    background-image: url(../images/thumbsdown.gif);
     left: 48px;
     animation-delay: .25s
 }
@@ -2004,7 +2004,7 @@ form.chat-form input {
     width: 100%;
     height: 100%;
     left: 50%;
-    background-image: url(/img/trophy.gif);
+    background-image: url(../images/trophy.gif);
     background-size: cover;
     filter: drop-shadow(0 0 8px rgba(0, 0, 0, .25))
 }
@@ -2273,7 +2273,7 @@ form.chat-form input {
     position: absolute;
     width: 64px;
     height: 64px;
-    background-image: url(/img/clock.gif);
+    background-image: url(../images/clock.gif);
     background-size: contain;
     filter: drop-shadow(0 0 2px rgba(0, 0, 0, .15));
     color: #000;
@@ -2590,7 +2590,7 @@ form.chat-form input {
 #game-toolbar .sizes .size-preview .icon {
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url(/img/size.gif);
+    background-image: url(../images/size.gif);
     filter: brightness(0) var(--DROPSHADOW)
 }
 
@@ -2629,7 +2629,7 @@ form.chat-form input {
 #game-toolbar .sizes .size .icon {
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url(/img/size.gif);
+    background-image: url(../images/size.gif);
     filter: brightness(0) var(--DROPSHADOW)
 }
 
@@ -3084,7 +3084,7 @@ form.chat-form input {
     right: 4px;
     top: 4px;
     opacity: .6;
-    background-image: url(/img/randomize.gif);
+    background-image: url(../images/randomize.gif);
     transition: opacity .15s ease,transform .15s ease
 }
 
@@ -3110,7 +3110,7 @@ form.chat-form input {
     cursor: pointer;
     width: 34px;
     height: 34px;
-    background-image: url(/img/arrow.gif);
+    background-image: url(../images/arrow.gif);
     background-size: 200%;
     background-repeat: no-repeat
 }
@@ -3350,19 +3350,19 @@ form.chat-form input {
 }
 
 #modal .modal-container-settings .group .title .icon.hotkeys {
-    background-image: url(/img/key.gif)
+    background-image: url(../images/key.gif)
 }
 
 #modal .modal-container-settings .group .title .icon.misc {
-    background-image: url(/img/questionmark.gif)
+    background-image: url(../images/questionmark.gif)
 }
 
 #modal .modal-container-settings .group .title .icon.volume {
-    background-image: url(/img/audio.gif)
+    background-image: url(../images/audio.gif)
 }
 
 #modal .modal-container-settings .group .title .icon.volume.muted {
-    background-image: url(/img/audio_off.gif)
+    background-image: url(../images/audio_off.gif)
 }
 
 #modal .modal-container-settings .group .item {
@@ -4034,13 +4034,13 @@ html[data-halloween] {
 }
 
 html[data-halloween] body {
-    background-image: url(/img/background_halloween.png)
+    background-image: url(../images/background_halloween.png)
 }
 
 html[data-halloween] #home .logo-big img {
-    content: url(/img/logo_halloween.gif)
+    content: url(../images/logo_halloween.gif)
 }
 
 html[data-halloween] #game-logo a img {
-    content: url(/img/logo_halloween.gif)
+    content: url(../images/logo_halloween.gif)
 }
