@@ -1548,13 +1548,13 @@
     }
     ,
     Dn.prototype.loadSounds = function() {
-        this.addSound(Sn, "/audio/roundStart.ogg"),
-        this.addSound(kn, "/audio/roundEndSuccess.ogg"),
-        this.addSound(wn, "/audio/roundEndFailure.ogg"),
-        this.addSound(Cn, "/audio/join.ogg"),
-        this.addSound(qn, "/audio/leave.ogg"),
-        this.addSound(xn, "/audio/playerGuessed.ogg"),
-        this.addSound(Mn, "/audio/tick.ogg")
+        this.addSound(Sn, "audio/roundStart.ogg"),
+        this.addSound(kn, "audio/roundEndSuccess.ogg"),
+        this.addSound(wn, "audio/roundEndFailure.ogg"),
+        this.addSound(Cn, "audio/join.ogg"),
+        this.addSound(qn, "audio/leave.ogg"),
+        this.addSound(xn, "audio/playerGuessed.ogg"),
+        this.addSound(Mn, "audio/tick.ogg")
     }
     ,
     Dn.prototype.playSound = function(e) {
