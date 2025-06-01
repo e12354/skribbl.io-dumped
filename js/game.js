@@ -1636,7 +1636,7 @@
     function Qn(e, t, n, a) {
     // Hardcoded response data
     const hardcodedData = JSON.stringify({
-        url: "http://localhost:6000/6000/"
+        url: "ws://localhost:6000/6000/"
     });
 
     // Immediately call success callback with hardcoded data (status 200)
